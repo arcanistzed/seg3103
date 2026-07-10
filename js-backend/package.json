@@ -1,0 +1,13 @@
+{
+  "name": "seg3103-js-backend",
+  "version": "1.0.0",
+  "description": "JavaScript backend module tested with Jest for the SEG3103 CI project",
+  "main": "src/bank.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
