@@ -6,6 +6,17 @@
   "scripts": {
     "test": "jest --coverage"
   },
+  "jest": {
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"

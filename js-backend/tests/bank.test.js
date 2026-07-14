@@ -8,7 +8,7 @@ describe("Account creation", () => {
     expect(acc.history).toEqual([]);
   });
 
-  test.each(["", "   "])("rejects invalid owner %p", (badOwner) => {
+  test.each(["", "   ", null])("rejects invalid owner %p", (badOwner) => {
     expect(() => new Account(badOwner)).toThrow("owner must be a non-empty string");
   });
 
